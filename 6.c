@@ -12,7 +12,7 @@ int main()
     for(i=0;i<5;i++)
         scanf("%d%s%lf",&lis[i].num,lis[i].nam,&lis[i].sco);
     for(i=0;i<4;i++){
-        max=lis[i].sco;t=i;
+        max=lis[i].sco; t=i;
         for(j=i+1;j<5;j++){
             if(lis[j].sco > max) {t=j;max=lis[j].sco;}
         }
